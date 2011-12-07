@@ -280,7 +280,7 @@ public class GroovyEngineImplTest {
 
 		Engine engine = new GroovyEngineImpl(proxy);
 
-		engine.runScript("test-data/script", "hello.groovy");
+		engine.runScript("src/test/resources/test-data/script", "hello.groovy");
 	}
 	
 	@Test
@@ -293,7 +293,7 @@ public class GroovyEngineImplTest {
 
 		Engine engine = new GroovyEngineImpl(proxy);
 		
-		engine.setupEngineOnPlaceHolder("test-data/place");
+		engine.setupEngineOnPlaceHolder("src/test/resources/test-data/place");
 		engine.runUsingPlaceHolder("myscript.groovy");
 	}
 }
