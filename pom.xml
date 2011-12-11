@@ -7,7 +7,7 @@
 
   <groupId>net.loadbang</groupId>
   <artifactId>net.loadbang.groovy</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <packaging>jar</packaging>
 
   <name>net.loadbang.groovy</name>
