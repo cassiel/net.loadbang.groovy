@@ -1,6 +1,6 @@
 ## 1.1.1, 2011-12-11:
 
-Dependency fix: Groovy needs `asm` and `antlr`.
+* Dependency fix: Groovy needs `asm` and `antlr`.
 
 ## 1.1.0, 2011-12-08:
 
